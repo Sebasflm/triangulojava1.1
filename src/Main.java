@@ -7,5 +7,9 @@ public class Main {
         triangulo.ingresarCoordenadas();
         triangulo.calcularBaricentro();
         triangulo.calcularDistancias();
+
+        Circulo circulo = new Circulo(triangulo);
+        circulo.calculoradio();
+        circulo.calculoArea();
         }
     }
